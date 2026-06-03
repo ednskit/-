@@ -604,4 +604,12 @@ function NavButton({ icon: Icon, label, isActive, onClick }) {
       <span className={`text-[10px] ${isActive ? 'font-bold' : 'font-medium'}`}>{label}</span>
     </button>
   );
-}
+}const firebaseConfig = {
+  apiKey: "AIzaSyCUOjRfmsxdjflXFe6qaVuvh4hdy75wZJA",
+  authDomain: "calculation-60-40.firebaseapp.com",
+  projectId: "calculation-60-40",
+  storageBucket: "calculation-60-40.firebasestorage.app",
+  messagingSenderId: "33139371632",
+  appId: "1:33139371632:web:b298fa5b0e050dd8b6ceb5",
+  measurementId: "G-EY63L1G7YJ"
+};
